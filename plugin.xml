@@ -85,6 +85,7 @@
         <source-file src="src/android/ContactAccessorSdk5.java" target-dir="src/org/apache/cordova/contacts" />
         <source-file src="src/android/ContactManager.java" target-dir="src/org/apache/cordova/contacts" />
         <source-file src="src/android/ContactInfoDTO.java" target-dir="src/org/apache/cordova/contacts" />
+        <source-file src="src/android/PermissionHelper.java" target-dir="src/org/apache/cordova/contacts" />
     </platform>
 
     <!-- amazon-fireos -->
@@ -105,7 +106,7 @@
         <source-file src="src/android/ContactAccessorSdk5.java" target-dir="src/org/apache/cordova/contacts" />
         <source-file src="src/android/ContactManager.java" target-dir="src/org/apache/cordova/contacts" />
     </platform>
-    
+
     <!-- ubuntu -->
     <platform name="ubuntu">
         <config-file target="config.xml" parent="/*">
@@ -201,7 +202,7 @@
         <source-file src="src/wp/ContactPicker.xaml.cs" />
         <source-file src="src/wp/ContactPickerTask.cs" />
     </platform>
-    
+
     <!-- firefoxos -->
     <platform name="firefoxos">
         <config-file target="config.xml" parent="/*">
@@ -211,7 +212,7 @@
         <js-module src="src/firefoxos/ContactsProxy.js" name="ContactsProxy">
             <runs />
         </js-module>
-    </platform>    
+    </platform>
 
     <!-- Windows 8 -->
     <platform name="windows8">
